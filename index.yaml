@@ -7,7 +7,7 @@ entries:
           description: "Updated Fluent Bit OCI image to v3.1.9"
     apiVersion: v1
     appVersion: 3.1.9
-    created: "2024-10-10T16:39:55.259392-04:00"
+    created: "2024-10-10T16:49:41.072556-04:00"
     description: Fast and lightweight log processor and forwarder or Linux, OSX and
       BSD family operating systems.
     digest: 08d39ca8536952f13cacc24ee48157bc512233e7b63b2d1b46109edaa41d77c2
@@ -30,7 +30,7 @@ entries:
     sources:
     - https://github.com/fluent/fluent-bit/
     urls:
-    - https://alfredytoro.github.io/helm-charts-at/fluent-bit-0.47.10.tgz
+    - https://alfredytoro.github.io/helm-charts-at/charts/helm-repo/fluent-bit-0.47.10.tgz
     version: 0.47.10
   nginx:
   - annotations:
@@ -45,7 +45,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 1.27.2
-    created: "2024-10-10T16:39:55.263902-04:00"
+    created: "2024-10-10T16:49:41.075882-04:00"
     dependencies:
     - name: common
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -71,12 +71,26 @@ entries:
     sources:
     - https://github.com/bitnami/charts/tree/main/bitnami/nginx
     urls:
-    - https://alfredytoro.github.io/helm-charts-at/nginx-18.2.2.tgz
+    - https://alfredytoro.github.io/helm-charts-at/charts/helm-repo/nginx-18.2.2.tgz
     version: 18.2.2
   polaris:
   - apiVersion: v1
     appVersion: "8.5"
-    created: "2024-10-10T16:39:55.266217-04:00"
+    created: "2024-10-10T16:49:41.070217-04:00"
+    description: Validation of best practices in your Kubernetes clusters
+    digest: 0b8aa01f261a2b6fe622fbc8d0e7d8811f17f0024b48dfedf6c28ecda4799622
+    icon: https://raw.githubusercontent.com/FairwindsOps/polaris/master/pkg/dashboard/assets/favicon-32x32.png
+    kubeVersion: '>= 1.22.0-0'
+    maintainers:
+    - email: robertb@fairwinds.com
+      name: rbren
+    name: polaris
+    urls:
+    - https://alfredytoro.github.io/helm-charts-at/charts/charts/polaris-5.17.1.tgz
+    version: 5.17.1
+  - apiVersion: v1
+    appVersion: "8.5"
+    created: "2024-10-10T16:49:41.077738-04:00"
     description: Validation of best practices in your Kubernetes clusters
     digest: 7bae8fe2cc79d5d332042bcc1f40f6d6159cf85e6ea959ee37178375449e2460
     icon: https://raw.githubusercontent.com/FairwindsOps/polaris/master/pkg/dashboard/assets/favicon-32x32.png
@@ -86,6 +100,6 @@ entries:
       name: rbren
     name: polaris
     urls:
-    - https://alfredytoro.github.io/helm-charts-at/polaris-5.17.1.tgz
+    - https://alfredytoro.github.io/helm-charts-at/charts/helm-repo/polaris-5.17.1.tgz
     version: 5.17.1
-generated: "2024-10-10T16:39:55.255964-04:00"
+generated: "2024-10-10T16:49:41.064271-04:00"

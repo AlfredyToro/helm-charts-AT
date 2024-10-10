@@ -1,82 +1,9 @@
 apiVersion: v1
 entries:
-  fluent-bit:
-  - annotations:
-      artifacthub.io/changes: |
-        - kind: changed
-          description: "Updated Fluent Bit OCI image to v3.1.9"
-    apiVersion: v1
-    appVersion: 3.1.9
-    created: "2024-10-10T16:49:41.072556-04:00"
-    description: Fast and lightweight log processor and forwarder or Linux, OSX and
-      BSD family operating systems.
-    digest: 08d39ca8536952f13cacc24ee48157bc512233e7b63b2d1b46109edaa41d77c2
-    home: https://fluentbit.io/
-    icon: https://raw.githubusercontent.com/cncf/artwork/master/projects/fluentd/fluentbit/icon/fluentbit-icon-color.svg
-    keywords:
-    - logging
-    - fluent-bit
-    - fluentd
-    maintainers:
-    - email: eduardo@calyptia.com
-      name: edsiper
-    - email: naseem@transit.app
-      name: naseemkullah
-    - email: towmeykaw@gmail.com
-      name: Towmeykaw
-    - email: steve.hipwell@gmail.com
-      name: stevehipwell
-    name: fluent-bit
-    sources:
-    - https://github.com/fluent/fluent-bit/
-    urls:
-    - https://alfredytoro.github.io/helm-charts-at/charts/helm-repo/fluent-bit-0.47.10.tgz
-    version: 0.47.10
-  nginx:
-  - annotations:
-      category: Infrastructure
-      images: |
-        - name: git
-          image: docker.io/bitnami/git:2.46.2-debian-12-r0
-        - name: nginx
-          image: docker.io/bitnami/nginx:1.27.2-debian-12-r0
-        - name: nginx-exporter
-          image: docker.io/bitnami/nginx-exporter:1.3.0-debian-12-r7
-      licenses: Apache-2.0
-    apiVersion: v2
-    appVersion: 1.27.2
-    created: "2024-10-10T16:49:41.075882-04:00"
-    dependencies:
-    - name: common
-      repository: oci://registry-1.docker.io/bitnamicharts
-      tags:
-      - bitnami-common
-      version: 2.x.x
-    description: NGINX Open Source is a web server that can be also used as a reverse
-      proxy, load balancer, and HTTP cache. Recommended for high-demanding sites due
-      to its ability to provide faster content.
-    digest: bb770d15d0c4238330371bbbd4d75cf9a955d1ee2cebfa40ff74a78a66ab7b6b
-    home: https://bitnami.com
-    icon: https://bitnami.com/assets/stacks/nginx/img/nginx-stack-220x234.png
-    keywords:
-    - nginx
-    - http
-    - web
-    - www
-    - reverse proxy
-    maintainers:
-    - name: Broadcom, Inc. All Rights Reserved.
-      url: https://github.com/bitnami/charts
-    name: nginx
-    sources:
-    - https://github.com/bitnami/charts/tree/main/bitnami/nginx
-    urls:
-    - https://alfredytoro.github.io/helm-charts-at/charts/helm-repo/nginx-18.2.2.tgz
-    version: 18.2.2
   polaris:
   - apiVersion: v1
     appVersion: "8.5"
-    created: "2024-10-10T16:59:44.823389-04:00"
+    created: "2024-10-10T17:06:11.809143-04:00"
     description: Validation of best practices in your Kubernetes clusters
     digest: 0b8aa01f261a2b6fe622fbc8d0e7d8811f17f0024b48dfedf6c28ecda4799622
     icon: https://raw.githubusercontent.com/FairwindsOps/polaris/master/pkg/dashboard/assets/favicon-32x32.png
@@ -88,4 +15,4 @@ entries:
     urls:
     - https://alfredytoro.github.io/helm-charts-at/charts/polaris-5.17.1.tgz
     version: 5.17.1
-generated: "2024-10-10T16:59:44.821349-04:00"
+generated: "2024-10-10T17:06:11.804953-04:00"

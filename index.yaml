@@ -76,7 +76,7 @@ entries:
   polaris:
   - apiVersion: v1
     appVersion: "8.5"
-    created: "2024-10-10T16:55:13.819785-04:00"
+    created: "2024-10-10T16:59:44.823389-04:00"
     description: Validation of best practices in your Kubernetes clusters
     digest: 0b8aa01f261a2b6fe622fbc8d0e7d8811f17f0024b48dfedf6c28ecda4799622
     icon: https://raw.githubusercontent.com/FairwindsOps/polaris/master/pkg/dashboard/assets/favicon-32x32.png
@@ -88,4 +88,4 @@ entries:
     urls:
     - https://alfredytoro.github.io/helm-charts-at/charts/polaris-5.17.1.tgz
     version: 5.17.1
-generated: "2024-10-10T16:55:13.817818-04:00"
+generated: "2024-10-10T16:59:44.821349-04:00"

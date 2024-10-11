@@ -3,7 +3,7 @@ entries:
   nginx:
   - apiVersion: v2
     appVersion: 2.0.0
-    created: "2024-10-10T17:34:48.568892-04:00"
+    created: "2024-10-10T23:43:31.864428-04:00"
     description: ngx
     digest: 09651b6183ffe4301011dc064a01bdafd90af7afcaf01eb9929df27168c7afc5
     name: nginx
@@ -13,11 +13,29 @@ entries:
   polaris:
   - apiVersion: v1
     appVersion: "8.5"
-    created: "2024-10-10T17:34:48.571207-04:00"
+    created: "2024-10-10T23:43:31.866978-04:00"
     description: Validation of best practices in your Kubernetes clusters
     digest: 4807c0886a5b6c92971a4fa1ed2dccfb298ea2d65541ac5925158c6af61dc6f1
     name: polaris
     urls:
     - https://alfredytoro.github.io/helm-charts-at/charts/polaris-5.17.1.tgz
     version: 5.17.1
-generated: "2024-10-10T17:34:48.563407-04:00"
+  uptime-kuma:
+  - apiVersion: v2
+    appVersion: 1.23.13
+    created: "2024-10-10T23:43:31.868744-04:00"
+    description: A self-hosted Monitoring tool like "Uptime-Robot".
+    digest: d1fcb4e02bbb4bec13c33e7dd5dc77de81390c0f493a2897940fe3c164552be6
+    home: https://github.com/dirsigler/uptime-kuma-helm
+    icon: https://raw.githubusercontent.com/louislam/uptime-kuma/master/public/icon.png
+    maintainers:
+    - email: dennis@irsigler.dev
+      name: dirsigler
+    name: uptime-kuma
+    sources:
+    - https://github.com/louislam/uptime-kuma
+    type: application
+    urls:
+    - https://alfredytoro.github.io/helm-charts-at/charts/uptime-kuma-2.20.0.tgz
+    version: 2.20.0
+generated: "2024-10-10T23:43:31.85782-04:00"
